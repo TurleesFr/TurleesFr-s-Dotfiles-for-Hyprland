@@ -1,0 +1,19 @@
+{
+  "logo": {
+    "type": "auto",
+    "source": "~/.config/hypr/icons/pokemon.png",
+  },
+  "modules": [
+    {"type": "title",
+    "format": "┌───────────────┈┄Fetch┄┈─────────────────┐",
+    "outputColor": "38;2;74;80;110",
+    },
+
+    {"type":"os",
+    "key": "󰣇 OS",
+    "keyColor": "light_yellow",
+  },
+    
+        
+  ]
+}

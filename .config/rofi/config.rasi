@@ -1,0 +1,26 @@
+configuration {
+    modi:                        "drun,filebrowser,run";
+    show-icons:                  true;
+    display-drun:                "󰣇 ";
+    display-run:                 " ";
+    display-filebrowser:         "󰉋";
+    display-window:              " ";
+    drun-display-format:         "{name}";
+    window-format:               "{w} · {c} · {t}";
+    font:                        "DejaVu Sans 12";
+    icon-theme:                  "candy-icons";
+}
+
+window {
+width: 50%;
+height: 50%;
+
+
+
+}
+
+
+
+
+
+
