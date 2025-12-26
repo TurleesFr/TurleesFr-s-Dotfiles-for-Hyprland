@@ -1,11 +1,25 @@
 {
   "logo": {
     "type": "auto",
-    "source": "~/.config/hypr/icons/pokemon.png",
+    "source": "~/.config/hypr/icons/*.png",
+    "padding": {
+      "top": 1,
+      "left": 3,
+      "right": 3
+    },
   },
+
+  "display": {
+    "separator": "-",
+    "key": {
+      "width": 15,
+      "type": "string"
+    },
+  },
+
   "modules": [
     {"type": "title",
-    "format": "┌───────────────┈┄Fetch┄┈─────────────────┐",
+    "format": "┌───────────────┈┄Fetch┄┈─────────────────────┄",
     "outputColor": "38;2;74;80;110",
     },
 
@@ -13,7 +27,22 @@
     "key": "󰣇 OS",
     "keyColor": "light_yellow",
   },
-    
+  {"type": "localip",
+  "key": "└ IP",
+  "keyColor": "light_yellow",
+  },
+  {"type": "CPU",
+  "key": " CPU",
+  "keyColor": "light_green"},
+  {"type": "GPU",
+  "key": "└ GPU",
+  "keyColor":"light_green"},
+  {"type": "WM",
+  "key": "󰍹 WM",
+  "keyColor": "light_blue"},
+  {"type": "Terminal",
+  "key": " Terminal",
+  "keyColor":"light_blue"},
         
   ]
 }
